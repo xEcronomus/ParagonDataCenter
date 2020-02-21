@@ -8,7 +8,7 @@
 		"TriggerId": 0
 	},
 	{
-		"Name": "BlockDamageReduction",
+		"Name": "Paladin-BlockDamageReduction",
 		"Description": "When a damage is blocked, multiply the damage taken with Value0, and increase Spirit by Value2",
 		"Icon": "None",
 		"Value": [0.4,5.0],
@@ -16,7 +16,7 @@
 		"TriggerId": 0
 	},
 	{
-		"Name": "PerfectBlockDamageReduction",
+		"Name": "Paladin-PerfectBlockDamageReduction",
 		"Description": "When a damage is Perfect blocked, multiply the damage taken with Value0, and increase Spirit by Value2",
 		"Icon": "None",
 		"Value": [0.1,15.0],
