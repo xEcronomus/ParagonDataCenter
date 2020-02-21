@@ -9,18 +9,18 @@
 	},
 	{
 		"Name": "BlockDamageReduction",
-		"Description": "When a damage is blocked, multiply the damage taken with Value",
+		"Description": "When a damage is blocked, multiply the damage taken with Value0, and increase Spirit by Value2",
 		"Icon": "None",
-		"Value": 0.4,
+		"Value": [0.4,5.0],
 		"Cooldown": 0,
-		"TriggerId": 1
+		"TriggerId": 0
 	},
 	{
 		"Name": "PerfectBlockDamageReduction",
-		"Description": "When a damage is Perfect blocked, multiply the damage taken with Value",
+		"Description": "When a damage is Perfect blocked, multiply the damage taken with Value0, and increase Spirit by Value2",
 		"Icon": "None",
-		"Value": 0.1,
+		"Value": [0.1,15.0],
 		"Cooldown": 0,
-		"TriggerId": 2
+		"TriggerId": 0
 	}
 ]
