@@ -9,7 +9,7 @@
 	},
 	{
 		"Name": "Paladin-BlockDamageReduction",
-		"Description": "When a damage is blocked, multiply the damage taken with Value0, and increase Spirit by Value2",
+		"Description": "When a damage is blocked, multiply the damage taken with Value0, and increase Divine Protection by Value2",
 		"Icon": "None",
 		"Value": [0.4,5.0],
 		"Cooldown": 0,
@@ -17,9 +17,17 @@
 	},
 	{
 		"Name": "Paladin-PerfectBlockDamageReduction",
-		"Description": "When a damage is Perfect blocked, multiply the damage taken with Value0, and increase Spirit by Value2",
+		"Description": "When a damage is Perfect blocked, multiply the damage taken with Value0, and increase Divine Protection by Value2",
 		"Icon": "None",
 		"Value": [0.1,15.0],
+		"Cooldown": 0,
+		"TriggerId": 0
+	}
+	{
+		"Name": "Paladin-DivineReductionLossPer5Sec",
+		"Description": "Reduce Divine Protection by Value every 5 sec",
+		"Icon": "None",
+		"Value": [15.0],
 		"Cooldown": 0,
 		"TriggerId": 0
 	}
