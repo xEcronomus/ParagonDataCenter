@@ -3,7 +3,7 @@
 		"Name": "TEST",
 		"Description": "TestDescription",
 		"Icon": "None",
-		"Value": 100,
+		"Value": [100, 100],
 		"Cooldown": 10,
 		"TriggerId": 0
 	},
