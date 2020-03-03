@@ -1,3 +1,30 @@
 [
-	
+	{
+		"Name": "TEST",
+		"Description": "TestDescription",
+		"Icon": "None",
+		"Value": [ 100, 100 ],
+		"Duration": 10
+	},
+	{
+		"Name": "Debilitate",
+		"Description": "Reduce target armor by %",
+		"Icon": "None",
+		"Value": [10],
+		"Duration": 15
+	},
+	{
+		"Name": "Pledge of Protection",
+		"Description": "Share the damage reduction with your party based on your divine justice",
+		"Icon": "None",
+		"Value": [10],
+		"Duration": 5
+	},
+	{
+		"Name": "Adrenaline Rush",
+		"Description": "Cooldown reduction for attack skills, self attackspeed buff self power buff, self crit power buff, party attackspeed buff,party power buff, party crit power buff",
+		"Icon": "None",
+		"Value": [50,0.5,30,0.5,15,0.2],
+		"Duration": 10
+	}
 ]
