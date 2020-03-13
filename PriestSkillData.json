@@ -1,0 +1,23 @@
+[
+	{
+		"Name": "TEST",
+		"Description": "TestDescription",
+		"Icon": "None",
+		"Value": [ 100, 100 ],
+		"Cooldown": 10
+	},
+	{
+		"Name": "HealingBolt",
+		"Description": "Heal Value, crit chance,distance,speed",
+		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/curewing_tex.curewing_tex'",
+		"Value": [ 150, 10, 750, 1500 ],
+		"Cooldown": 1
+	},
+	{
+		"Name": "Blessing",
+		"Description": "Range",
+		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/tranquility_tex.tranquility_tex'",
+		"Value": [ 1000 ],
+		"Cooldown": 5
+	}
+]
