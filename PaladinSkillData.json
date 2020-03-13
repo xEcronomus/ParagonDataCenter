@@ -4,87 +4,76 @@
 		"Description": "TestDescription",
 		"Icon": "None",
 		"Value": [ 100, 100 ],
-		"Cooldown": 10,
-		"TriggerId": 0
+		"Cooldown": 10
 	},
 	{
 		"Name": "PaladinBlock",
 		"Description": "Perfect block damage multiplyier, perfect block divine protection increase, block damage multiplier, block divine protection increasem block angle, perfect block duration",
 		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/defence_tex.defence_tex'",
-		"Value": [ 0.1, 15, 0.4, 5, 45, 0.5 ],
-		"Cooldown": 0,
-		"TriggerId": 0
+		"Value": [ 0.10000000149011612, 15, 0.40000000596046448, 5, 45, 0.5 ],
+		"Cooldown": 0
 	},
 	{
 		"Name": "HeavensFury",
 		"Description": "Wallop",
 		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/poundonground_tex.poundonground_tex'",
 		"Value": [],
-		"Cooldown": 5,
-		"TriggerId": 0
+		"Cooldown": 5
 	},
 	{
 		"Name": "DoubleStrike",
 		"Description": "Damage of the first hit, Damage of the second hit",
 		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/shieldattack_tex.shieldattack_tex'",
-		"Value": [150,175],
-		"Cooldown": 3,
-		"TriggerId": 0
+		"Value": [ 150, 175 ],
+		"Cooldown": 3
 	},
 	{
-		"Name": "Charging Lunge",
+		"Name": "ChargingLunge",
 		"Description": "Damage during the charge, damage at the end",
-		"Icon": "",
-		"Value": [100,300],
-		"Cooldown": 8,
-		"TriggerId": 0
+		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/advancingcharge_tex.advancingcharge_tex'",
+		"Value": [ 100, 300 ],
+		"Cooldown": 8
 	},
 	{
 		"Name": "Debilitate",
 		"Description": "Damage",
-		"Icon": "",
-		"Value": [50],
-		"Cooldown": 2,
-		"TriggerId": 1
+		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/armorbreak_tex.armorbreak_tex'",
+		"Value": [ 50 ],
+		"Cooldown": 2
 	},
 	{
-		"Name": "Pledge of Protection",
-		"Description": "",
-		"Icon": "",
+		"Name": "PledgeofProtection",
+		"Description": "Applies buff to party",
+		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/vowofprotection_tex.vowofprotection_tex'",
 		"Value": [],
-		"Cooldown": 90,
-		"TriggerId": 2
+		"Cooldown": 90
 	},
 	{
-		"Name": "Aggro Shout",
+		"Name": "AggroShout",
 		"Description": "Amount of aggro gained",
-		"Icon": "",
-		"Value": [500],
-		"Cooldown": 15,
-		"TriggerId": 0
+		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/roar_tex.roar_tex'",
+		"Value": [ 500 ],
+		"Cooldown": 15
 	},
 	{
-		"Name": "First Wind",
+		"Name": "FirstWind",
 		"Description": "%of Divine Protection gained",
-		"Icon": "",
-		"Value": [50],
-		"Cooldown": 60,
-		"TriggerId": 0
+		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/rejuvenation_tex.rejuvenation_tex'",
+		"Value": [ 50 ],
+		"Cooldown": 60
 	},
 	{
-		"Name": "Counter Attack",
+		"Name": "CounterAttack",
 		"Description": "Damage after normal block, damage after perfect block",
-		"Icon": "",
-		"Value": [100,150],
-		"Cooldown": 2,
-		"TriggerId": 0
+		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/riposte_tex.riposte_tex'",
+		"Value": [ 100, 150 ],
+		"Cooldown": 2
 	},
 	{
-		"Name": "Adrenaline Rush",
-		"Description": "Damage after normal block, damage after perfect block",
-		"Icon": "",
+		"Name": "AdrenalineRush",
+		"Description": "Applies buff to everyone ",
+		"Icon": "Texture2D'/Game/tera-used-icons-master/icon_skills/nostalgia_tex.nostalgia_tex'",
 		"Value": [],
-		"Cooldown": 80,
-		"TriggerId": 3
+		"Cooldown": 80
 	}
 ]
